@@ -18,4 +18,5 @@ int main()
         }
         file << '\n';
     }
+    file.close();
 }
