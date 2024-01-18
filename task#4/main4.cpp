@@ -22,6 +22,7 @@ void read_file(int &bill_1h, int &bill_2h, int &bill_5h, int &bill_1k, int &bill
     bill_2k = 0;
     bill_5h = 0;
     bill_5k = 0;
+    sum=0;
     std::ifstream bills("bills.bin", std::ios::binary);
     bills.seekg(0);
     while (!bills.eof())
